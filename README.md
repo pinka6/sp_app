@@ -1,0 +1,1 @@
+SpGroup Application for event planning
