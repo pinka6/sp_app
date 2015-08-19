@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  contact_id: 1
+  int_contact_id: 1
+  position: MyString
+  status: MyString
+  region: MyString
+
+two:
+  contact_id: 1
+  int_contact_id: 1
+  position: MyString
+  status: MyString
+  region: MyString

@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  event_id: 1
+  provider_service: MyString
+  amount: 1
+  price: 1
+  total_price: 1
+  paid: 1
+  provider_incoive: 1
+
+two:
+  event_id: 1
+  provider_service: MyString
+  amount: 1
+  price: 1
+  total_price: 1
+  paid: 1
+  provider_incoive: 1
