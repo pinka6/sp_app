@@ -1,3 +1,4 @@
+
 require 'test_helper'
 
 class StaticPagesControllerTest < ActionController::TestCase
@@ -12,17 +13,20 @@ class StaticPagesControllerTest < ActionController::TestCase
     get :help
     assert_response :success
     assert_select "title", "Help | SpGroupApp"
+    assert_select "title"
   end
 
   test "should get about" do
     get :about
     assert_response :success
     assert_select "title", "About | SpGroupApp"
+    assert_select "title"
   end
 
   test "should get contact" do
     get :contact
     assert_response :success
     assert_select "title", "Contact | SpGroupApp"
+    assert_select "title"
   end
 end
