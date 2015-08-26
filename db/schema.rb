@@ -11,13 +11,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150815172225) do
+ActiveRecord::Schema.define(version: 20150819104717) do
 
   create_table "agents", force: :cascade do |t|
     t.integer  "contact_id"
     t.string   "position"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
+    t.string   "password_digest"
   end
 
   create_table "clients", force: :cascade do |t|
